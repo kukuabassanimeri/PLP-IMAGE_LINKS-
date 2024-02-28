@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <html lang="en" class="scroll-smooth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://kit.fontawesome.com/caeb9ec53e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Image Links & Navigation</title>
+</head>
+
+<body>
+    <!--Navigation starts here-->
+    <section class="list-none flex justify-center items-center pt-2">
+        <nav class="space-x-8 text-2xl text-orange-600">
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#menu">Menu</a>
+        </nav>
+    </section>
+    <!--Navigation ends here-->
+
+    <!-- Home Section Start-->
+    <section id="home" class="pl-40 pt-10 text-lg text-gray-600">
+        <h1><span class="text-6xl text-green-600">Hello! </span><i
+                class="fa-regular fa-hand pl-5 text-yellow-400 text-6xl"></i><br>Welcome to my Website!</h1>
+        <p>As technology enthusiasts, I invite you to embark on a journey of discovery. <br>Explore the latest
+            advancements, trends, and innovations that shape the digital world. <br> Stay informed, stay inspired!</p>
+        <a href="https://www.pinterest.com/pin/729935052094621500/" target="_blank" rel="noopener">
+            <img src="coding.png" alt="Technology Image" width="350" height="200" class="pt-5">
+        </a>
+    </section>
+    <!--Home section ends-->
+
+    <!-- Gallery Section start-->
+    <section id="gallery" class="pl-40 pt-10 text-lg text-gray-600">
+        <h2 class="text-4xl text-orange-600">Nature Gallery <i class="fa-solid fa-mountain-sun"></i></h2>
+        <p>Immerse yourself in the breathtaking beauty of nature through my gallery. <br>From awe-inspiring landscapes
+            to
+            the wonders of wildlife, each image tells a story.<br> Click on any image to explore more on nature
+            photography
+            and conservation efforts.</p>
+        <div id="image-grid" class="grid grid-cols-3 gap-8 pr-40 pt-5">
+            <a href="https://www.istockphoto.com/photos/nature-path" target="_blank" rel="noopener">
+                <img src="forest.jpg" alt="forest">
+                <figcaption>Natural Forest</figcaption>
+            </a>
+
+
+            <a href="https://www.pexels.com/search/beautiful%20nature/" target="_blank" rel="noopener">
+                <img src="mountain.jpg" alt="mountain">
+                <figcaption>Mountains</figcaption>
+            </a>
+
+
+            <a href="https://www.pexels.com/photo/river-between-green-leafed-tree-1766838/" target="_blank"
+                rel="noopener">
+                <img src="river.jpg" alt="river">
+                <figcaption>Flowing River</figcaption>
+            </a>
+        </div>
+    </section>
+    <!--Gallery section ends-->
+
+    <!-- Menu Section -->
+    <section id="menu" class="pl-40 pt-10 text-gray-600 text-lg">
+        <h2 class="text-4xl text-blue-600">Food Menu <i class="fa-solid fa-bars"></i></h2>
+        <p>Indulge your culinary senses with curated menu. <br>Each dish is a masterpiece, carefully crafted to
+            delight your taste buds.</p>
+        <ul>
+            <li class="pt-5">
+                <p class="text-red-600 pb-5">1. PIZZA</p>
+                <a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/" target="_blank" rel="noopener">
+                    <img src="pizza.jpg" alt="pizza" width="300">
+                    <figcaption>An enticing image of a freshly baked pizza <br> linked to a gourmet pizza recipe.
+                    </figcaption>
+                </a>
+            </li>
+            <li class="pt-5">
+                <P class="text-green-600 pb-5">2. SUSHI</P>
+                <a href="https://www.taste.com.au/recipes/sushi-2/0d57247f-03a6-434d-b26b-071b91614d41"
+                    target="_blank" rel="noopener">
+                    <img src="sushi.jpg" alt="sushi" width="300">
+                    <figcaption>A visual feast of sushi artistry linked to <br>an expert sushi-making tutorial.</figcaption>
+                </a>
+            </li>
+            <li class="pt-5">
+                <P class="text-yellow-600 pb-5">3. CHOCOLATE</P>
+                <a href="https://www.thespruceeats.com/a-guide-to-chocolate-varieties-520311" target="_blank" rel="noopener">
+                    <img src="chocolate.jpg" alt="chocolate" width="300"> 
+                    <figcaption>Dive into the world of desserts with <br>a luscious chocolate cake image linked to <br>a
+                        delightful dessert blog. <br>Savor the sweetness of every bite.</figcaption>
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
